@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>PHP Ready Gender Checkbox</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link href='https://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+
+<div class="title">
+  <h1 class="center">PHP Ready Gender Checkbox</h1>
+
+<!-- This checkbox statistically suggests the opposite gender, however it does not discriminate based on sexual orientation. Clicking the second field will not force selection to reverse. -->
+
+<!-- Gender Checkbox Start-->
+
+<div class="gender center">
+  
+  <p class="genderText">I am a</p>
+  
+  <div class="maleRadio">
+    <input type="radio" name="myGender" onclick="matchGenderFemale.checked = true;" value="Male" class="male" id="myGenderMale" />
+    <label for="myGenderMale"></label>
+  </div>
+  
+  <div class="femaleRadio">
+    <input type="radio" onclick="matchGenderMale.checked = true;" value="Female" name="myGender" class="female" id="myGenderFemale" />
+    <label for="myGenderFemale"></label>
+  </div>
+  
+  <p class="genderText">Seeking a</p>
+  
+  <div class="maleRadio">
+    <input type="radio" value="Male" name="matchGender" class="male" id="matchGenderMale" />
+    <label for="matchGenderMale"></label>
+  </div>
+
+  <div class="femaleRadio">
+    <input type="radio"  value="Female" name="matchGender" class="female" id="matchGenderFemale" />
+    <label for="matchGenderFemale"></label>
+  </div>
+  
+</div>
+  
+<!--Gender Checkbox End-->
+
+</div>
+<!-- partial -->
+  
+</body>
+</html>

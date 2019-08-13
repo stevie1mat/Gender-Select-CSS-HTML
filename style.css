@@ -1,0 +1,80 @@
+.genderText {
+    display:inline-block;
+    font-family: 'lato';
+    font-weight:300;
+    color: #4B4B4B;
+    font-size: 1em;
+}
+
+
+.gender input[type="radio"] {
+  display:none;
+}
+
+
+.maleRadio input[type="radio"] + label {
+    display:inline-block;
+    width:40px;
+    height:85px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background:url('http://dizin.x10.bz/codepen/jshdJ/m.png') left top no-repeat;
+    cursor:pointer;
+}
+
+.maleRadio input[type="radio"]:checked + label {
+	  background:url('http://dizin.x10.bz/codepen/jshdJ/maleHover.png') left top no-repeat;
+}
+
+.femaleRadio input[type="radio"] + label {
+    display:inline-block;
+    width:40px;
+    height:85px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background:url('http://dizin.x10.bz/codepen/jshdJ/f.png') left top no-repeat;
+    cursor:pointer;
+}
+
+.femaleRadio input[type="radio"]:checked + label {
+    background:url('http://dizin.x10.bz/codepen/jshdJ/femaleHover.png') left top no-repeat;
+}
+
+
+.maleRadio, .femaleRadio  {
+	  display:inline-block;
+}
+
+.center {
+    text-align:center;
+    margin:auto;
+    margin-bottom: 20px;
+}
+
+
+
+/* Watermark and Title, Don't Need */
+
+.watermark {
+  font-family:'lato';
+  font-weight:300;
+  font-size:21px;
+}
+
+a {
+   text-decoration:none;
+   color:#06f;
+   
+}
+
+a:hover {
+  text-decoration:underline; 
+}
+
+h1 {
+  padding-top:100px;
+  font-family:'lato', sans-serif;
+  font-size:35px;
+  font-weight:100;
+  
+}
